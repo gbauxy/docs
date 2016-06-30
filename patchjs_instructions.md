@@ -23,8 +23,7 @@ Note: Patch.js should be loaded directly from ```https://js.getpatch.com/v1.6/``
 
 Your publishable API key identifies your website to Patch during communications. Set your publishable key with setPublishableKey, after including Patch.js and before making any requests to Patch.
 
-```Patch.setPublishableKey('pk_test_2bYg0i0xayUuxAZ8a2I0kCXH');
-```
+```Patch.setPublishableKey('pk_test_2bYg0i0xayUuxAZ8a2I0kCXH'); ```
 
 We've pre-filled the example with your test API key. Only you can see this value.
 
@@ -37,4 +36,4 @@ You will need to replace the test key with your live key for production uses.
 
 ### Questions?
 
-We're always happy to help with code or other questions you might have! Feel free to [send us an email](mailto:developer@getpatch.com?subject=Help%Me%Program%Stuff!)!
+We're always happy to help with code or other questions you might have! Feel free to send an email to developer@getpatch.com!
