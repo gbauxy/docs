@@ -15,15 +15,19 @@ Patch.js also has built-in validators to check whether a patient's member ID or 
 
 However you're using Patch.js, you always begin by including the library and setting your API key. Add this script tag to your HTML page to get started with Patch.js:
 
-```<script type="text/javascript" src="https://js.getpatch.com/v1.6/"></script>```
+```html
+<script type="text/javascript" src="https://js.getpatch.com/v1.6/"></script>
+```
 
-Note: Patch.js should be loaded directly from ```https://js.getpatch.com/v1.6/```.
+Note: Patch.js should be loaded directly from `https://js.getpatch.com/v1.6/`.
 
 ### Setting your publishable key
 
 Your publishable API key identifies your website to Patch during communications. Set your publishable key with setPublishableKey, after including Patch.js and before making any requests to Patch.
 
-```Patch.setPublishableKey('pk_test_2bYg0i0xayUuxAZ8a2I0kCXH'); ```
+```javascript
+Patch.setPublishableKey('pk_test_2bYg0i0xayUuxAZ8a2I0kCXH'); 
+```
 
 We've pre-filled the example with your test API key. Only you can see this value.
 
